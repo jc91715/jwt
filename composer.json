@@ -1,0 +1,27 @@
+{
+    "name": "jc91715/jwt",
+    "require": {
+        "illuminate/support": "~5.0"
+
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "jc91715",
+            "email": "370234915@qq.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Jc91715\\Jwt\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Jc91715\\Jwt\\ServiceProvider"
+            ]
+        }
+    }
+}
