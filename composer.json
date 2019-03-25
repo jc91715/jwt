@@ -16,7 +16,6 @@
             "Jc91715\\Jwt\\": "src/"
         }
     },
-    "minimum-stability": "dev",
     "extra": {
         "laravel": {
             "providers": [
